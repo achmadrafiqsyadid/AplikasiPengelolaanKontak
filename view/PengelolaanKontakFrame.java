@@ -8,14 +8,14 @@ package Latihan3.view;
  *
  * @author Achmad Rafiq Syaddid
  */
-public class AplikasiPengelolaanKontak extends javax.swing.JFrame {
+public class PengelolaanKontakFrame extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(AplikasiPengelolaanKontak.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(PengelolaanKontakFrame.class.getName());
 
     /**
-     * Creates new form AplikasiPengelolaanKontak
+     * Creates new form PengelolaanKontakFrame
      */
-    public AplikasiPengelolaanKontak() {
+    public PengelolaanKontakFrame() {
         initComponents();
     }
 
@@ -66,7 +66,7 @@ public class AplikasiPengelolaanKontak extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new AplikasiPengelolaanKontak().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new PengelolaanKontakFrame().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
